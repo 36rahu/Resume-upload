@@ -4,7 +4,7 @@ from requests import Request
 
 
 def get_code():
-    '''Function only give the get request to the agiliq,com and return the corresponding address.And we obtain the code from the browser''' 
+    '''Function only give the get request to the agiliq.com and return the corresponding address.And we obtain the code from the browser''' 
     state = uuid.uuid4().get_hex()
     params ={ 
         'client_id':'LhDptl2FRdQ1lAmfLY4v8Obb4cbX9DqjgLIDO8erBTYWbkGmq5',
